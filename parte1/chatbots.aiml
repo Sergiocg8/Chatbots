@@ -56,26 +56,25 @@
   <category>
       <pattern>*</pattern>
       <that>PERFECTO, VUELVE A ELIGIR EL DEPORTE QUE QUIERAS *</that>
-      <template>Perfecto, me encanta el <set name="topic"><star /></set>, ¿de qué equipo eres?</template>
+      <template>Perfecto, me encanta el <set name="topic"></set>, ¿de qué equipo eres?</template>
   </category>
   
   <category>
       <pattern>TENIS</pattern>
       <that>PERFECTO, VUELVE A ELIGIR EL DEPORTE QUE QUIERAS *</that>
-      <template>Perfecto, me encanta el <set name="topic">tenis</set>, ¿cuál es tu jugador favorito?</template>
+      <template>Perfecto, me encanta el <set name="topic"></set>, ¿cuál es tu jugador favorito?</template>
   </category>
   
   
   <topic name="futbol">
       <category>
           <pattern>BETIS</pattern>
-          <that>PERFECTO, VUELVE A ELEGIR *</that>
           <that>PERFECTO, ME ENCANTA *</that>
           <template>
               <think>
                   <set name="equipo_futbol">BETIS</set>
                   </think>
-                  ¿Qué quieres saber sobre el Betis?
+                  Elige la opción que más te interese sobre el BETIS
                   <ol>
                       <li>Puesto en liga</li>
                       <li>Próximo rival</li>
@@ -91,7 +90,7 @@
           <template>
               <think>
                   <set name="equipo_futbol">MADRID</set></think>
-                  ¿Qué quieres saber sobre el Madrid?
+                  Elige la opción que más te interese sobre el MADRID
                   <ol>
                       <li>Puesto en liga</li>
                       <li>Próximo rival</li>
@@ -107,7 +106,7 @@
           <template>
               <think>
                   <set name="equipo_futbol">BARCELONA</set></think>
-                  ¿Qué quieres saber sobre el Barcelona?
+                  Elige la opción que más te interese sobre el BARCELONA
                   <ol>
                       <li>Puesto en liga</li>
                       <li>Próximo rival</li>
@@ -123,7 +122,7 @@
           <template>
               <think>
                   <set name="equipo_futbol">ATLETICO DE MADRID</set></think>
-                  ¿Qué quieres saber sobre el Atlético de Madrid?
+                  Elige la opción que más te interese sobre el ATLÉTICO DE MADRID
                   <ol>
                       <li>Puesto en liga</li>
                       <li>Próximo rival</li>
@@ -136,6 +135,7 @@
       
       <category>
           <pattern>1</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_futbol">
                   <li value="BETIS">El Betis va el 3º en liga</li>
@@ -148,6 +148,7 @@
       
       <category>
           <pattern>2</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_futbol">
                   <li value="BETIS">El próximo rival del Betis es el Celta de Vigo</li>
@@ -160,6 +161,7 @@
       
       <category>
           <pattern>3</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_futbol">
                   <li value="BETIS">La fecha del próximo partido del Betis es el 2/01/2022</li>
@@ -172,6 +174,7 @@
       
       <category>
           <pattern>4</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_futbol">
                   <li value="BETIS">
@@ -213,7 +216,7 @@
               <think>
                   <set name="equipo_baloncesto">LAKERS</set>
               </think>
-              ¿Qué quieres saber sobre los Lakers?
+              Elige la opción que más te interese sobre los LAKERS
               <ol>
                   <li>Puesto en la NBA</li>
                   <li>Próximo rival</li>
@@ -230,7 +233,7 @@
               <think>
                   <set name="equipo_baloncesto">WARRIORS</set>
               </think>
-              ¿Qué quieres saber sobre los Warrios?
+              Elige la opción que más te interese sobre los WARRIORS
               <ol>
                   <li>Puesto en la NBA</li>
                   <li>Próximo rival</li>
@@ -247,7 +250,7 @@
               <think>
                   <set name="equipo_baloncesto">BARCELONA</set>
               </think>
-              ¿Qué quieres saber sobre el Barcelona?
+              Elige la opción que más te interese sobre el BARCELONA BASKET
               <ol>
                   <li>Puesto en la ACB</li>
                   <li>Próximo rival</li>
@@ -264,7 +267,7 @@
               <think>
                   <set name="equipo_baloncesto">MADRID</set>
               </think>
-              ¿Qué quieres saber sobre los Madrid?
+              Elige la opción que más te interese sobre el MADRID BASKET
               <ol>
                   <li>Puesto en la ACB</li>
                   <li>Próximo rival</li>
@@ -276,6 +279,7 @@
       
       <category>
           <pattern>1</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_baloncesto">
                   <li value="LAKERS">Los Lakers van el 9º en la NBA</li>
@@ -288,9 +292,10 @@
       
       <category>
           <pattern>2</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_baloncesto">
-                  <li value="LAKERS">El próximo rival de los Lakers e onlos Rockest</li>
+                  <li value="LAKERS">El próximo rival de los Lakers son los Rockest</li>
                   <li value="WARRIORS">El próximo rival de los Warriors son los Nuggest</li>
                   <li value="BARCELONA">El próximo rival del Barcelona es el Madrid</li>
                   <li value="MADRID">El próximo rival del Madrid es el Barcelona</li>
@@ -300,6 +305,7 @@
       
       <category>
           <pattern>3</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_baloncesto">
                   <li value="LAKERS">La fecha del próximo partido de los Lakers es el 29/12/2021</li>
@@ -312,6 +318,7 @@
       
       <category>
           <pattern>4</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="equipo_baloncesto">
                   <li value="LAKERS">
@@ -352,7 +359,7 @@
               <think>
                   <set name="jugador_tenis">NADAL</set>
               </think>
-              ¿Qué quieres saber sobre Nadal?
+              Elige la opción que más te interese sobre NADAL
               <ol>
                   <li>Próximo campeonato</li>
                   <li>Fecha del próximo campeonato</li>
@@ -369,7 +376,7 @@
               <think>
                   <set name="jugador_tenis">DJOKOVIC</set>
               </think>
-              ¿Qué quieres saber sobre Djocovic?
+              Elige la opción que más te interese sobre DJOKOVIC
               <ol>
                   <li>Próximo campeonato</li>
                   <li>Fecha del próximo campeonato</li>
@@ -386,7 +393,7 @@
               <think>
                   <set name="jugador_tenis">FEDERER</set>
               </think>
-              ¿Qué quieres saber sobre Federer?
+              Elige la opción que más te interese sobre FEDERER
               <ol>
                   <li>Próximo campeonato</li>
                   <li>Fecha del próximo campeonato</li>
@@ -403,9 +410,9 @@
               <think>
                   <set name="jugador_tenis">THIEM</set>
               </think>
-              ¿Qué quieres saber sobre los Thiem?
+              Elige la opción que más te interese sobre THIEM
               <ol>
-                  <li>Prósimo campeonato</li>
+                  <li>Próximo campeonato</li>
                   <li>Fecha del próximo campeonato</li>
                   <li>Foto</li>
                   <li>Noticias</li>
@@ -415,6 +422,7 @@
       
       <category>
           <pattern>1</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="jugador_tenis">
                   <li value="NADAL">El próximo campeonato de Nadal es el Open de Australia</li>
@@ -427,6 +435,7 @@
       
       <category>
           <pattern>2</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="jugador_tenis">
                   <li value="NADAL">La fecha del próximo campeonato es el 1/01/2022</li>
@@ -439,6 +448,7 @@
       
       <category>
           <pattern>3</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="jugador_tenis">
                   <li value="NADAL">
@@ -459,6 +469,7 @@
       
       <category>
           <pattern>4</pattern>
+          <that>ELIGE LA OPCIÓN QUE MÁS TE INTERESE *</that>
           <template>
               <condition name="jugador_tenis">
                   <li value="NADAL">
@@ -489,6 +500,4 @@
           </template>
       </category>
   </topic>
-  
-
 </aiml>
