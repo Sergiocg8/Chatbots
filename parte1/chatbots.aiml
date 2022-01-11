@@ -56,13 +56,13 @@
   <category>
       <pattern>*</pattern>
       <that>PERFECTO, VUELVE A ELIGIR EL DEPORTE QUE QUIERAS *</that>
-      <template>Perfecto, me encanta el <set name="topic"></set>, ¿de qué equipo eres?</template>
+      <template>Perfecto, me encanta el <set name="topic"><star /></set>, ¿de qué equipo eres?</template>
   </category>
   
   <category>
       <pattern>TENIS</pattern>
       <that>PERFECTO, VUELVE A ELIGIR EL DEPORTE QUE QUIERAS *</that>
-      <template>Perfecto, me encanta el <set name="topic"></set>, ¿cuál es tu jugador favorito?</template>
+      <template>Perfecto, me encanta el <set name="topic">tenis</set>, ¿cuál es tu jugador favorito?</template>
   </category>
   
   
