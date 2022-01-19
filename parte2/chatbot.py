@@ -20,8 +20,12 @@ def answer_question():
     question = input("> ")
     answer = classify(question)
     answerclass = answer["class_name"]
+    confidence = answer["confidence"]
     
-    if answerclass == "puesto_liga_betis":
+    if confidence < 75:
+       print("No he entendido la pregunta. Preguntame otra cosa.")
+    
+    elif answerclass == "puesto_liga_betis":
         print("El Betis va el 3º en liga")
         
     elif answerclass == "prox_rival_betis":
