@@ -15,7 +15,7 @@
   <category>
       <pattern>SI</pattern>
       <that>*</that>
-      <template>Perfecto elige el deporte que quieras: fútbol, baloncesto o 		tenis
+      <template>Perfecto elige el deporte que quieras: fútbol, baloncesto o tenis
       </template>
   </category>
   
