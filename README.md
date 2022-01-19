@@ -22,3 +22,7 @@ web le hemos entrenado. Una vez entrenado la web aporta un código en donde los 
 Una vez en visual studio creamo una nueva funcion en donde relaciones las etiquetas creadas con sus respectivas respuestas.
 Por lo tanto cuando preguntemos, esta lo va a relacionar con la etiqueta y por lo tanto con la respuesta. Y así es como obtendriamos la
 información
+  
+Enlaces videos:
+  ChatBots AIML: https://youtu.be/T09dv2GdSeQ
+  ChatBots ML4K: https://youtu.be/2GkSfEJhC94
