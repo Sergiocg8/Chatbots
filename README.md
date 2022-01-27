@@ -23,6 +23,13 @@ Una vez en visual studio creamos una nueva función en donde relaciones las etiq
 Por lo tanto cuando preguntemos, esta lo va a relacionar con la etiqueta y por lo tanto con la respuesta. Y así es como obtendriamos la
 información.
   
+Por último la tercera parte es realizar una convinación de las dos partes anteriores sacando el beneficio de uno con el beneficio del
+otro. Para ello hemos juntado los dos códigos.
+
+Por lo tanto el proyecto podría seguir la conversación con el bot con un lenguaje más amplio y variado.
+  
 Enlaces videos:
   ChatBots AIML: https://youtu.be/T09dv2GdSeQ
-  ChatBots ML4K: https://youtu.be/2GkSfEJhC94
+  ChatBots ML4K antiguo: https://youtu.be/2GkSfEJhC94
+  ChatBots ML4K nuevo: https://youtu.be/YSnRItYPWCs
+  ChatBot AIML y ML4K: https://youtu.be/rZs7S2wCpsA
